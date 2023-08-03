@@ -50,7 +50,7 @@ function validateNum() {
     }
 
     else if(isNaN(phone)){
-        document.getElementById("messages").innerHTML="mobile number must be digit";
+        document.getElementById("messages").innerHTML="mobile number must be in digit";
         return false;
     }
 
@@ -75,11 +75,11 @@ function myNum() {
         return false;
     }
     else if(isNaN(a)){
-        document.getElementById("message").innerHTML="mobile number must be digit";
+        document.getElementById("message").innerHTML="mobile number must be in digit";
         return false;
     }
     else if(!a.match(data)){
-        document.getElementById("message").innerHTML="mobile number must be 10 digit";
+        document.getElementById("message").innerHTML="mobile number length invalid";
         return false;
 
     }

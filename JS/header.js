@@ -31,3 +31,13 @@ function popup(popup_name)
     get_popup.style.display="flex";
   }
 }
+
+// Add event listener for scroll
+window.addEventListener('scroll', function () {
+  var nav = document.getElementById('nav');
+  if (window.scrollY > 0) {
+    nav.classList.add('scroll');
+  } else {
+    nav.classList.remove('scroll');
+  }
+});
