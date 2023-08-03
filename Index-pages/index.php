@@ -10,6 +10,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 <body>
 <style>
@@ -40,7 +41,7 @@ session_start();
               
                       <div class="section-title">
                         <h2>Contact</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+                        <p>For further information contact us: </p>
                       </div>
 
                           <div class="row">
@@ -71,7 +72,7 @@ session_start();
             <!--End of contact us-->
             <section class="Campus">
               <h1>Our Colleges</h1>
-              <p>International COllege for Bachelor Degree.</p>
+              <p>International College for Bachelor Degree.</p>
   
               <div class="row">
                   <div class="campus-col">
@@ -133,10 +134,10 @@ session_start();
                     <div class="footer-links">
                       <h4>Useful Links</h4>
                       <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Privacy policy</a></li>
                       </ul>
                     </div>
                     
