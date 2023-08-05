@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" href="../../CSS/template.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../CSS/template.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
 </head>
@@ -12,11 +12,11 @@
 <body>
 	
 	<div id="mySidenav" class="sidenav">
-	<p class="logo">M-SoftTech <span class="menu">☰</span></p>
+	<p class="logo">UNI<span class="menu">☰</span></p>
 	<p class="logo1"> <span class="menu1">☰</span></p>
-  <a href="adminDashboard.php" class="icon-a">   <i class="uil uil-dashboard"></i>   Dashboard</a>
-  <a href="applications.php"class="icon-a">      <i class="uil uil-chart-pie"></i>   College Application</a>
-  <a href="Registered_colleges.php"class="icon-a"><i class="uil uil-list-ul"></i>     Registered Colleges</a>
+  <a href="adminDashboard.php" class="icon-a">      <i class="uil uil-dashboard"></i> Dashboard</a>
+  <a href="students_application.php"class="icon-a"> <i class="uil uil-chart-pie"></i> Application</a>
+  <a href="Registered_colleges.php"class="icon-a">  <i class="uil uil-list-ul"></i>   Registered Colleges</a>
   <!--<a href="#"class="icon-a"><i class="fa fa-shopping-bag icons"></i>   Orders</a>
   <a href="#"class="icon-a"><i class="fa fa-tasks icons"></i>   Inventory</a>
   <a href="#"class="icon-a"><i class="fa fa-user icons"></i>   Accounts</a>
@@ -42,10 +42,10 @@
 		<div class="notification-div">
 			<p class="noti-head">Notification <span>2</span></p>
 			<hr class="hr" />
-			<p>Your request has been accepted
+			<p>Your college is registered
 				<span>Lorem Ipsum is simply dummy </span>
 			</p>
-			<p>You are registered as admin
+			<p>Your college is registered
 				<span>Lorem Ipsum is simply dummy </span>
 			</p>
 			<!--<p>Your Order is Placed
@@ -54,7 +54,7 @@
 		</div>
 	<div class="profile">
 
-		<p>Admin login <i class="fa fa-ellipsis-v dots" aria-hidden="true"></i></p>
+		<p> <span> <i class="fa fa-ellipsis-v dots" aria-hidden="true"></i> <span></p>
 		<div class="profile-div">
 			<p><i class="fa fa-user"></i>   Profile</p>
 			<p><i class="fa fa-cogs"></i>   Settings</p>

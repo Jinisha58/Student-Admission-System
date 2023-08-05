@@ -40,7 +40,7 @@ session_start();
                     <div class="container">
               
                       <div class="section-title">
-                        <h2>Contact</h2>
+                        <h2>Contact Us:</h2>
                         <p>For further information contact us: </p>
                       </div>
 
@@ -70,7 +70,7 @@ session_start();
                   </section>
             </section>
             <!--End of contact us-->
-            <section class="Campus">
+           <!-- <section class="Campus">
               <h1>Our Colleges</h1>
               <p>International College for Bachelor Degree.</p>
   
@@ -100,7 +100,7 @@ session_start();
                       </div>
                   </div>
               </div>
-          </section>
+          </section>-->
   
             <!--about us -->
             <section id="about-us" class="about-us">
@@ -114,7 +114,7 @@ session_start();
           </section>
           <!--end of about us-->
 
-        <!--Footer Section-->
+        <!--Footer Section
         <div class="footer">
             <div class="footer-top">
                 <div class="container">
@@ -150,10 +150,62 @@ session_start();
                           <li>Court</li>
                         </ul>
                     </div>
+
                    </div>
                  </div>
              </div>
+        </div>-->
+
+        <footer class="footer">
+  <div class="footer_containerleft">
+  </div>
+  <div class="footer_containerright">
+    <div class="row">
+      <div class="footer-col">
+        <h4> LOGO .</h4>
+        <ul>
+          <li>
+            <a href="#aboutus"> About Us</a>
+          </li>
+          <li>
+            <a href="#Featuredevent"> Our Services</a>
+            <ul>
+                          <li>Hostel</li>
+                          <li>Futsal</li>
+                          <li>Libraries</li>
+                          <li>Court</li>
+                        </ul>
+          </li>
+        </ul>
+      </div> <!-- footer-col -->
+      <div class="footer-col">
+        <h4> Get Help </h4>
+        <ul>
+          <li class="register_style">
+            <p>Do you have any inquiries ? Feel Free to </p>
+            <button> <a href="#contact">Contact Us </a></button>
+          </li>
+        </ul>
+      </div> <!-- footer-col -->
+      <div class="footer-col">
+        <h4> Follow US</h4>
+        <div class="social-links">
+          <a href="#"> <i class="uil uil-facebook"></i></a>
+          <a href="#"> <i class="uil uil-instagram-alt"></i></a>
+          <a href="#"> <i class="uil uil-linkedin"></i></a>
+          <a href="#"> <i class="uil uil-twitter"></i></i></a>
         </div>
+      </div> <!-- footer-col ends -->
+    </div> <!-- row -->
+    <div class="copyright1">
+      <p> 2023 College. All rights reserved.</p>
+      <p>Use of this site constitutes acceptance of our User Agreement and privacy policy.</p>
+      <p>The Material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except
+        with the prior written permission of College.</p>
+    </div>
+  </div> <!-- footer_containerright -->
+
+</footer>
   
 </body>
 </html>

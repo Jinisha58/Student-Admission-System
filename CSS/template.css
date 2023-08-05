@@ -91,12 +91,13 @@ padding: 0px 6px;
     font-weight: 500;
     margin-left: 35px;
     margin-top: 10px;
-    font-size: 13.5px;
+    font-size: 15px;
     background-color: white;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 20px;
     padding-left: 35px;
     cursor: pointer;
+    position: fixed;
 }
 .dots{
   margin-left: 10px;
