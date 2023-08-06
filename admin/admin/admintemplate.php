@@ -54,7 +54,7 @@
 		</div>
 	<div class="profile">
 
-		<p>Admin login <i class="fa fa-ellipsis-v dots" aria-hidden="true"></i></p>
+		<p>Admin login  <i class="fa fa-ellipsis-v dots" aria-hidden="true"></i></p>
 		<div class="profile-div">
 			<p><i class="fa fa-user"></i>   Profile</p>
 			<p><i class="fa fa-cogs"></i>   Settings</p>

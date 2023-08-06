@@ -63,7 +63,7 @@ $_SESSION['college_id']= $collegeID;
 ?>
 
 
-            <form action="../Std.applicationsInsert.php" onsubmit="return myNum()" method="POST">
+            <form action="../Std.applicationsInsert.php" method="POST">
                 <label for="preferred-course">
                     <h2>Preferred Course:</h2>
                 </label><br>

@@ -45,7 +45,7 @@ session_start();
                       </div>
 
                           <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                               <div class="info-box">
                                 <i class="uil uil-map-marker"></i>
                                 <h3>Our Address</h3>
@@ -68,7 +68,7 @@ session_start();
                             </div>
                           </div>
                   </section>
-            </section>
+            
             <!--End of contact us-->
            <!-- <section class="Campus">
               <h1>Our Colleges</h1>

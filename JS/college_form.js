@@ -40,7 +40,7 @@ function validateForm() {
     errorText.style.display = "none";
     return true; // Allow form submission
 }
-
+/*
 function validateNum() {
     var phone = document.form.num.value;
     var data= /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-.]?([0-9]{4})$/;
@@ -60,7 +60,7 @@ function validateNum() {
     }
 
     else{ /*((phone.charAt(0)!=9) && (phone.charAt(0)!=8)){
-        document.getElementById("messages").innerHTML="mobile number must start with 9 and 8";*/
+        document.getElementById("messages").innerHTML="mobile number must start with 9 and 8";
         return false;
     }
     return true;
@@ -84,8 +84,43 @@ function myNum() {
 
     }
     else{ /*((a.charAt(0)!=9) && (phone.charAt(0)!=8)){
-        document.getElementById("message").innerHTML="mobile number must start with 9 and 8";*/
+        document.getElementById("message").innerHTML="mobile number must start with 9 and 8";
         return false;
     }
     return true;
+}*/
+
+function validateNum() {
+    const phoneNumberInput = document.getElementById('num').value;
+
+    // Regular expression for a more comprehensive phone number format
+    const phoneNumberPattern = /^\+?(\d{1,3})?[-. ]?\(?(\d{3})\)?[-. ]?\d{3}[-. ]?\d{4}$/;
+
+    if (!phoneNumberPattern.test(phoneNumberInput)) {
+        alert('Invalid phone number');
+        return false; // Prevent form submission
+    }
+
+    // If validation passes, form will submit
+    return true;
 }
+
+
+
+function validatePhoneNumber() {
+    const phoneNumberInput = document.getElementById('phoneNumber').value;
+
+    // Regular expression for a more comprehensive phone number format
+    const phoneNumberPattern = /^\+?(\d{1,3})?[-. ]?\(?(\d{3})\)?[-. ]?\d{3}[-. ]?\d{4}$/;
+
+    if (!phoneNumberPattern.test(phoneNumberInput)) {
+        alert('Invalid phone number');
+        return false; // Prevent form submission
+    }
+
+    // If validation passes, form will submit
+    return true;
+}
+
+// Add an event listener to the form to call the validation function before submission
+document.querySelector('form').addEventListener('submit', validatePhoneNumber);
