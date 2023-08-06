@@ -54,7 +54,7 @@
 		</div>
 	<div class="profile">
 
-		<p> <span> <i class="fa fa-ellipsis-v dots" aria-hidden="true"></i> <span></p>
+		<p>College User <span> <i class="fa fa-ellipsis-v dots" aria-hidden="true"></i> <span></p>
 		<div class="profile-div">
 			<p><i class="fa fa-user"></i>   Profile</p>
 			<p><i class="fa fa-cogs"></i>   Settings</p>
